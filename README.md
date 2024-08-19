@@ -1,41 +1,29 @@
-# ¡Hola, soy [Christian Ardila]! 👋
+# Encriptador de Texto
 
-## 🌟 Sobre Mí
+Este proyecto es una herramienta de encriptación de texto basada en un desafío de Allura. El encriptador convierte texto usando un conjunto específico de reglas de sustitución, y también puede desencriptar texto cifrado de vuelta a su forma original.
 
-Soy un desarrollador backend apasionado con experiencia en:
+## Requisitos del Proyecto
 
-- 🌐 **Backend**: Java, Python, Spring
-- 💻 **Desarrollo Web**: HTML, CSS, JavaScript, React
-- 🗃️ **Bases de Datos**: MySQL, MongoDB
+- **Solo letras minúsculas**: El encriptador debe funcionar exclusivamente con letras minúsculas.
+- **Sin caracteres especiales**: No se deben utilizar letras acentuadas ni caracteres especiales.
+- **Conversión bidireccional**: El encriptador debe ser capaz de convertir una palabra a su versión encriptada y también de desencriptar texto cifrado a su versión original.
 
-## 🚀 Proyectos Destacados
+## Reglas de Encriptación
 
-- [**Encriptador de texto - Alura**]() - Challenger hecho para un curso de Alura.
+Las siguientes reglas son utilizadas para convertir el texto:
 
-## 🛠️ Habilidades
+- La letra `e` se convierte en `enter`
+- La letra `i` se convierte en `imes`
+- La letra `a` se convierte en `ai`
+- La letra `o` se convierte en `ober`
+- La letra `u` se convierte en `ufat`
 
-- ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1C.svg?style=for-the-badge&logo=javascript&logoColor=black)
+## Tecnologías Utilizadas
 
-### Tecnologías Backend
+- **HTML**: Para la estructura de la interfaz.
+- **CSS**: Para el estilo y diseño de la interfaz.
+- **JavaScript**: Para la lógica de encriptación y desencriptación.
 
-- ![Java](https://img.shields.io/badge/Java-%23E34F26.svg?style=for-the-badge&logo=java&logoColor=white)
-- ![Python](https://img.shields.io/badge/Python-%233B4D99.svg?style=for-the-badge&logo=python&logoColor=white)
-- ![Spring](https://img.shields.io/badge/Spring-%232B6C2C.svg?style=for-the-badge&logo=spring&logoColor=white)
+## Contribuciones
 
-### Bases de Datos
-
-- ![MySQL](https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-- ![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-- ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23447A1.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-
-## 📈 Estadísticas
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mateosanchezh&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
-
-## 📬 Contacto
-
-- 📧 [cardila622@gmail.com](cardila622@gmail.com)
-- 🌐 [LinkedIn](https://www.linkedin.com/in/cristian-ardila-066025315/)
-
+Las contribuciones al proyecto son bienvenidas. Si tienes sugerencias o encuentras errores, por favor crea un **issue** o envía una **pull request**.
